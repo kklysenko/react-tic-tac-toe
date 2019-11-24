@@ -6,6 +6,34 @@
   height: 40vmin;
 }
 
+#root {
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.tic-tac-toe {
+	display: flex;
+	flex-wrap: wrap;
+	width: 450px;
+	height: 450px;
+	border: 2px solid black;
+	margin: auto;
+}
+
+.ttt-grid {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: calc(100% / 3);
+	height: calc(100% / 3);
+	border: 1px solid black;
+	box-sizing: border-box;
+	font-size: 100px;
+	font-weight: bold;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
